@@ -1,0 +1,33 @@
+#### Basic Setting ####
+1. Connect Cloud Server
+ssh awekim@4.234.234.12
+
+2. Set root account's password
+>> sudo passwd 
+
+3. Log in as root account (or super user)
+>> su
+
+4. Update apt
+>> update apt
+
+5. Install Apache2
+>> apt install apache2
+
+6. Install net tools
+>> apt install net-tools
+
+7. Check network status
+>> netstat -lntp | grep apache2
+
+8. Install Tomcat (data trasfer software, uses port 8080)
+>> apt install tomcat9
+
+9. Link Apache & Tomcat
+>> apt install libapache2-mod-jk
+
+#### File Access Grant ####
+After installing FileZilla, you may face this issue of file grant.
+Open Terminal and run following code.
+>> chown -R awekim /var/www/
+
