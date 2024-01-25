@@ -1,5 +1,5 @@
 0. Download key file from server & run following code
->>> chmod 600 ai-server_key.pm
+$ chmod 600 ai-server_key.pm
 
 1. Add SSH config
 Host Azure-server2
@@ -39,7 +39,7 @@ $ pip install fastapi
 $ pip install uvicorn
 
 5. Run following code
->>> python bitcoin.py
+$ python bitcoin.py
 
 6. Run following code (run ai server)
 uvicorn --host 0.0.0.0 --port 8080 api:app --reload
