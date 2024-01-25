@@ -6,8 +6,11 @@ Host Azure-server2
         HostName 20.200.221.5
         User azureuser
         IdentityFile "/Users/keungouikim/Desktop/UrgentTask/ai_server/ai-server_key.pem"
+
 2. Open folder (SSH)
+
 3. Add files
+
 4. Open VSCode terminal and run following codes
 >>> sudo apt-get update
 >>> sudo apt-get install python3-pip
@@ -22,9 +25,12 @@ Host Azure-server2
 >>> pip install tensorflow
 >>> pip install fastapi
 >>> pip install uvicorn
+
 5. Run following code
 >>> python bitcoin.py
+
 6. Run following code (run ai server)
 uvicorn --host 0.0.0.0 --port 8080 api:app --reload
+
 7. Open another terminal and run following code to check the performance
 curl -X POST -H "Content-Type: application/json" -d "{\"closing_price\": \"500\", \"opening_price\": \"400\", \"high_price\": \"400\", \"low_price\": \"400\", \"trading_volume\": \"4000000\"}" http://20.200.221.5:8080
