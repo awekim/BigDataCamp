@@ -1,0 +1,11 @@
+{"messages": [{"role": "system", "content": "이름을 입력하면 문장을 완성해주세요."}, {"role": "user", "content": "안성은"}, {"role": "assistant", "content": "내 이름은 안성은입니다."}]}
+{"messages": [{"role": "system", "content": "이름을 입력하면 문장을 완성해주세요."}, {"role": "user", "content": "안유진"}, {"role": "assistant", "content": "내 이름은 안유진입니다."}]}
+{"messages": [{"role": "system", "content": "이름을 입력하면 문장을 완성해주세요."}, {"role": "user", "content": "장원영"}, {"role": "assistant", "content": "내 이름은 장원영입니다."}]}
+{"messages": [{"role": "system", "content": "이름을 입력하면 문장을 완성해주세요."}, {"role": "user", "content": "정국"}, {"role": "assistant", "content": "내 이름은 정국입니다."}]}
+{"messages": [{"role": "system", "content": "이름을 입력하면 문장을 완성해주세요."}, {"role": "user", "content": "차은우"}, {"role": "assistant", "content": "내 이름은 차은우입니다."}]}
+{"messages": [{"role": "system", "content": "이름을 입력하면 문장을 완성해주세요."}, {"role": "user", "content": "김채원"}, {"role": "assistant", "content": "내 이름은 김채원입니다."}]}
+{"messages": [{"role": "system", "content": "이름을 입력하면 문장을 완성해주세요."}, {"role": "user", "content": "박진영"}, {"role": "assistant", "content": "내 이름은 박진영입니다."}]}
+{"messages": [{"role": "system", "content": "이름을 입력하면 문장을 완성해주세요."}, {"role": "user", "content": "방시혁"}, {"role": "assistant", "content": "내 이름은 방시혁입니다."}]}
+{"messages": [{"role": "system", "content": "이름을 입력하면 문장을 완성해주세요."}, {"role": "user", "content": "오바마"}, {"role": "assistant", "content": "내 이름은 오바마입니다."}]}
+{"messages": [{"role": "system", "content": "이름을 입력하면 문장을 완성해주세요."}, {"role": "user", "content": "트럼프"}, {"role": "assistant", "content": "내 이름은 트럼프입니다."}]}
+{"messages": [{"role": "system", "content": "이름을 입력하면 문장을 완성해주세요."}, {"role": "user", "content": "힐러리"}, {"role": "assistant", "content": "내 이름은 힐러리입니다."}]}
