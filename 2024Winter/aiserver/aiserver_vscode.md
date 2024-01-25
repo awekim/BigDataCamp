@@ -12,19 +12,31 @@ Host Azure-server2
 3. Add files
 
 4. Open VSCode terminal and run following codes
->>> sudo apt-get update
->>> sudo apt-get install python3-pip
->>> sudo apt install python3.8-venv
->>> cd workspace
->>> python3 -m venv myenv
->>> source ./myenv/bin/activate
->>> pip install pandas
->>> pip install scikit-learn
->>> pip install numpy
->>> pip install keras
->>> pip install tensorflow
->>> pip install fastapi
->>> pip install uvicorn
+$ sudo apt-get update
+
+$ sudo apt-get install python3-pip
+
+$ sudo apt install python3.8-venv
+
+$ cd workspace
+
+$ python3 -m venv myenv
+
+$ source ./myenv/bin/activate
+
+$ pip install pandas
+
+$ pip install scikit-learn
+
+$ pip install numpy
+
+$ pip install keras
+
+$ pip install tensorflow
+
+$ pip install fastapi
+
+$ pip install uvicorn
 
 5. Run following code
 >>> python bitcoin.py
