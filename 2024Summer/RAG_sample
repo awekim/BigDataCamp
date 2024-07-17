@@ -1,0 +1,41 @@
+1. 서버에 데이터 업로드
+- work & data_preprocess
+
+2. 경로 변경 후 필수 패키지 설치
+> cd work
+> cd 0.pdf
+> python3 -m pip install pip --upgrade
+> pip install huggingface_hub langchain langchain_community langchain_openai faiss-gpu pymupdf langserve sse_starlette pydantic==1.10.13 fastapi uvicorn langchain_huggingface
+
+3. pdf 파일 변환
+> python3 pdf.py
+
+4. db화
+> python3 data.py
+
+5. 경로 변경 후 올라마 설치
+> cd ..
+> curl -fsSL https://ollama.com/install.sh | sh
+
+6. eeve 설치(아래 실행)
+work 폴더로 이동
+down.sh 실행
+> echo 'export PATH=$PATH:$HOME/.local/bin' >> ~/.bashrc
+> source ~/.bashrc
+> bash down.sh
+
+7. Modelfile과 ggml-model-Q5_K_M.gguf를 같은 위치에 둡니다.
+
+8. ollama에 eeve 등록(ollama가 켜져 있어야 함)
+> ollama create EEVE-Korean-10.8B -f Modelfile
+> ollama list
+
+9. ollama로 eeve 해보기(ollama가 켜져 있어야 함, 종료 : type "/bye" or ctrl+d)
+> ollama run EEVE-Korean-10.8B:latest
+
+10. ollama 종료
+> sudo systemctl stop ollama.service
+
+11. ollama 시작
+> sudo systemctl start ollama.service
+
